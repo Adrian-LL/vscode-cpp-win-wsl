@@ -18,9 +18,11 @@ So, please follow the next steps:
 - You should be connected to the Internet, preferably with a good speed :-)
 - Minimal knowledge about Linux would be nice.
  
-Step 1 - install WSL (just query the net…). You should check that your Windows is compatible with it. That means Windows 10 at least 1803. It will work in Windows Server versions too, but the installation procedure is different (and not for our discussion).
+### Step 1 - install WSL (just query the net…)
+You should check that your Windows is compatible with it. That means Windows 10 at least 1803. It will work in Windows Server versions too, but the installation procedure is different (and not for our discussion).
 
 * You can see it by checking "Turn Windows features on or off" in the Control Panel. 
+![windows-features](https://raw.githubusercontent.com/Adrian-LL/VSC-Trials/master/images/windows-features.png)
 * Find and check "Windows Subsystem for Linux"
 * Aternatively, use Powershell command (as Administrator):
 ```powershell
