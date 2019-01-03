@@ -172,3 +172,19 @@ I managed to get `gdb` working with the following configuration, but w/o input f
     ]
 }
 ```
+
+# Unsorted Bibliography
+* https://docs.microsoft.com/en-us/windows/wsl/about
+* https://marketplace.visualstudio.com/items?itemName=ms-vscode.cpptools
+* https://github.com/Microsoft/vscode-cpptools/blob/master/Documentation/Getting%20started%20with%20IntelliSense%20configuration.md
+* https://daverupert.com/2018/04/developing-on-windows-with-wsl-and-visual-studio-code/
+* https://jessicadeen.com/badass-terminal-wsl-macos-and-ubuntu-dotfiles-update/
+* https://blog.ropnop.com/configuring-a-pretty-and-usable-terminal-emulator-for-wsl/
+* https://brianketelsen.com/going-overboard-with-wsl-metadata/
+* https://stackoverflow.com/questions/44450218/how-do-i-use-bash-on-ubuntu-on-windows-wsl-for-my-vs-code-terminal
+* https://medium.com/@johnwoodruff91/epic-dev-environment-with-wsl-dc81e234ae61
+* https://www.hanselman.com/blog/TheYearOfLinuxOnTheWindowsDesktopWSLTipsAndTricks.aspx
+* https://www.hanselman.com/blog/SettingUpAShinyDevelopmentEnvironmentWithinLinuxOnWindows10.aspx
+
+
+
