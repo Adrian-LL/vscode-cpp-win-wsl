@@ -22,8 +22,12 @@ So, please follow the next steps:
 You should check that your Windows is compatible with it. That means Windows 10 at least 1803. It will work in Windows Server versions too, but the installation procedure is different (and not for our discussion).
 
 * You can see it by checking "Turn Windows features on or off" in the Control Panel. 
-![windows-features](https://raw.githubusercontent.com/Adrian-LL/VSC-Trials/master/images/windows-features.png)
+
+![windows-features](https://raw.githubusercontent.com/Adrian-LL/vscode-cpp-setting-trials/master/images/windows-features.png)
+
 * Find and check "Windows Subsystem for Linux"
+
+![windows-features2](https://raw.githubusercontent.com/Adrian-LL/vscode-cpp-setting-trials/master/images/windows-features2.png)
 * Aternatively, use Powershell command (as Administrator):
 ```powershell
 PS> Enable-WindowsOptionalFeature -Online -FeatureName Microsoft-Windows-Subsystem-Linux
@@ -33,13 +37,19 @@ A restart will be needed.
 * Search for "Linux" and choose "Run Linux on Windows".
 * Install your preferred version. (I used Ubuntu 18.04)
 
+![store-linux](https://raw.githubusercontent.com/Adrian-LL/vscode-cpp-setting-trials/master/images/store-linux.PNG)
+
 Step 2.
 After installation, launch it:
 * From the store
 * From the start menu - Ubuntu or wsl or bash (please be careful if you already have some other tools installed such as MinGW or Cygwin or MSYS or something else - Mobaxterm or mintty comes to mind).
 
 * A console will launch - now the "real" installation takes place - in will take some time depending on the speed of your computer.
+
+![installing](https://raw.githubusercontent.com/Adrian-LL/vscode-cpp-setting-trials/master/images/installing.png)
 * At the end of installation you will be asked for a username and a password.
+
+![username](https://raw.githubusercontent.com/Adrian-LL/vscode-cpp-setting-trials/master/images/username.png)
 > Keep in mind the username and password are specific to WSL and not related to Windows user (although you can choose the same name and password it you want...)
 
 Once Ubuntu is installed, you have to run the latest upgrades. If you use other Linux distros, the commands will be specific to those.
@@ -61,6 +71,8 @@ user@station:~$ sudo apt-get install build-essential gdb
 * **VSC is installed** (if not, install it - go with the "user install" option).
 * Change the **default shell to WSL shell**: 
   * Via F1 command and `Terminal: select default shell`: (select the wsl bash option)
+
+  ![shell](https://raw.githubusercontent.com/Adrian-LL/vscode-cpp-setting-trials/master/images/shell.JPG)
   * Via menu: File -> Preferences -> Settings -> search for `terminal.integrated.shell.windows`
   
 * The **C++ extension by Microsoft** is installed in VSC. (See in Marketplace at https://marketplace.visualstudio.com/items?itemName=ms-vscode.cpptools. The github page at https://github.com/Microsoft/vscode-cpptools)
